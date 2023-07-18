@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -=------------Shared style----------------- */
+
+/* -=------------Header section style----------------- */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 140px;
+}
+nav h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-icon img{
+    height: 40px;
+}
+.nav-manu ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+.nav-manu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-manu button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#youtube-icon{
+    color: red;
+    margin:0 15px;
+}
+
+
+
+/* ----------Style for mobile device----------------- */
+@media screen and (max-width:425px) {
+    nav{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .nav-manu{
+        flex-direction: column;
+    }
+    .nav-manu ul{
+        flex-direction: column;
+    }
+    .nav-icon{
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+/* ----------------Style for tablat--------------- */
