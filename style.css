@@ -398,3 +398,36 @@ nav h2{
 
 
 /* ----------------Style for tablat--------------- */
+@media screen and (min-width:425px) and (max-width:768px){
+    nav,
+    .play-instant-container,
+    .gamer{
+        flex-direction: column;
+        padding: 30px 50px;
+        gap: 30px;
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+    
+    .banner-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 48%;
+    }
+    .card-box{
+        flex-wrap: wrap;
+    }
+    .banner-img img,
+    .gamer-img img{
+        width: 100%;
+    }
+    .gamer-content,
+    .play-instant-content{
+        text-align: center;
+    }
+    .all-game-container{
+        flex-wrap: wrap;
+        padding: 30px 50px;
+    }
+}
